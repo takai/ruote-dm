@@ -57,6 +57,10 @@ module Dm
     end
   end
 
+  # Seems like DataMapper 1.2 wants that
+  #
+  DataMapper.finalize
+
   #
   # A datamapper-powered storage for ruote.
   #
